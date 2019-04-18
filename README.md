@@ -1,5 +1,5 @@
 # GemFire Server CQs Close Function
-
+## GemFire V8 Only
 The project provides a function to stop and close all active client continuous queries on cache server(s). 
 
 ### GemFire
