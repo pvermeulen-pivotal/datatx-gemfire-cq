@@ -9,6 +9,11 @@ The project provides a function to stop and close all active client continuous q
 	</function>
 </function-service>
 
+### GemFire Client
+The following property must be set on the Cient Connection Pool to ensure client receives event that server continuous queries have been stopped and closed.
+
+setPoolSubscriptionTimeoutMultiplier(1)
+
 ### Spring
 <gfe:function-service>
 	<gfe:function>
